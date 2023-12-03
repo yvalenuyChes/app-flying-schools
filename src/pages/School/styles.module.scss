@@ -1,0 +1,59 @@
+.school{
+
+   &__title{
+      font-size: 30px;
+      text-align: center;
+      padding: 30px 0;
+   }
+
+
+   &__subtitle{
+      font-size: 24px;
+      text-align: center;
+      padding: 20px 0;
+   }
+
+
+   &__buttons{
+      margin: 0 auto;
+      display: flex;
+      width: 60%;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__form{
+      margin: 0 auto;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &__container{
+         text-align: center;
+         padding: 20px 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+
+
+      &_time{
+         padding: 40px 0;
+
+
+         &_buttons{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button{
+              margin: 10px !important;
+            }
+         }
+      }
+      
+     
+   }
+}

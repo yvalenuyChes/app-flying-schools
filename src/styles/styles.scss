@@ -1,0 +1,14 @@
+@import 'nullstyle.scss';
+
+html {
+   scroll-behavior: smooth !important;
+ }
+ 
+ html,
+ body{
+  font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ body{
+  min-height: 100%;
+ }

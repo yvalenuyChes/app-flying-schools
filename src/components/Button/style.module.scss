@@ -1,0 +1,38 @@
+
+
+.button{
+   // height: 50px;
+   // width: 200px;
+   border-radius: 10px;
+   font-size: 20px;
+   margin: 30px;
+   transition: all .3s ease;
+}
+
+.primary{
+   background-color: royalblue;
+   color: white;
+
+   &:hover{
+      background-color: rgb(33, 60, 143);
+   }
+}
+
+.danger{
+   background-color: #f53838;
+   color: white;
+
+   &:hover{
+      background-color: #832121;
+   }
+}
+
+.accept{
+   background-color: #51e485;
+   color: white;
+
+
+   &:hover{
+      background-color: #3da963;
+   }
+}
